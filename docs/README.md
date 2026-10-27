@@ -95,10 +95,27 @@ project-stats/
 
 ---
 
-## 3. История изменений проекта
+## 3. Запуск и установка
+
+### Запустить через **F5**
+1. Скачать проект: на GitHub нажать **Code → Download ZIP** и распаковать.
+2. Открыть папку проекта в VS Code.
+3. В терминале выполнить `npm install`.
+4. Нажать **F5**. Откроется второе окно VS Code.
+5. В нём открыть любую папку и нажать кнопку **Project Stats** слева внизу.
+
+### Как установить у себя
+
+1. В терминале в папке проекта выполнить `npx @vscode/vsce package`.
+2. В VS Code нажать `Ctrl+Shift+X`, потом `···` справа вверху → **Install from VSIX...**
+3. Выбрать файл `project-stats-0.0.1.vsix` и перезапустить VS Code.
+
+## 4. История изменений проекта
 
 | Хеш коммита | Описание                      |
 |-------------|-------------------------------|
 | `a0638f4`   | Start create my plugin        |
 | `e4cb015`   | Finish plugin                 |
-| —           | Add documentation             |
+| `c5077bf`   | Add documentation             |
+| `9bfaa3f`   | Fixed mistakes                |
+|             | Fixed mistakes 2.0             |
